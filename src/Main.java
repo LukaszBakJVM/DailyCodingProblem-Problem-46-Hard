@@ -15,6 +15,7 @@ public class Main {
 
 
     }
+    // All possible words not char.
     private static Set<String> allWordsFromString(String s){
 
         Set<String>strings=new HashSet<>();
@@ -46,6 +47,7 @@ public class Main {
 
         return strings;
     }
+    // Checks if the word is palindrome.
     private static Set<String>palindromeOrNot(Set<String>words){
 
         Set<String>palindrome=new HashSet<>();
@@ -63,6 +65,7 @@ public class Main {
         return palindrome;
 
     }
+    // Longest palindrome.
     private static String longestPalindrome(Set<String>longest){
         int i=0;
         String z="";
